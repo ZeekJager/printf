@@ -200,3 +200,4 @@ unsigned int convert_R(va_list args, buffer_t *output,
 	ret += print_neg_width(output, ret, flags, wid);
 
 	return (ret);
+}
